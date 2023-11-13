@@ -1,0 +1,44 @@
+.feedback
+{
+    height: auto;
+    padding: 15px;
+    margin: 10px;
+}
+input[type="radio"] {
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    border: 2px solid #1FBED6;
+    background-color: white;
+    -webkit-appearance: none; /*to disable the default appearance of radio button*/
+    -moz-appearance: none;
+  }
+  
+  input[type="radio"]:focus { /*no need, if you don't disable default appearance*/
+    outline: none; /*to remove the square border on focus*/
+  }
+  
+  input[type="radio"]:checked { /*no need, if you don't disable default appearance*/
+    background-color: #1FBED6;
+  }
+  
+  input[type="radio"]:checked ~ span:first-of-type {
+    color: white;
+  }
+  
+  label span:first-of-type {
+    position: relative;
+    left: -23px;
+    font-size: 19px;
+    color: #1FBED6;
+  }
+  
+  label span {
+    position: relative;
+    top: -12px;
+  }
+
+  .quesfeedback
+  {
+    margin: 35px;
+  }

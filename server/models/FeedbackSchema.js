@@ -1,0 +1,79 @@
+const mongoose = require("mongoose");
+
+const FeedbackSchema = new mongoose.Schema(
+    {
+        op1:
+        {
+            type:String,
+            require:true
+        },
+        op2:
+        {
+            type:String,
+            require:true
+        },
+        op3:
+        {
+            type:String,
+            require:true
+        },
+        op4:
+        {
+            type:String,
+            require:true
+        },
+        op5:
+        {
+            type:String,
+            require:true
+        },
+        op6:
+        {
+            type:String,
+            require:true
+        },
+        op7:
+        {
+            type:String,
+            require:true
+        },
+        op8:
+        {
+            type:String,
+            require:true
+        },
+        op9:
+        {
+            type:String,
+            require:true
+        },
+        op10:
+        {
+            type:String,
+            require:true
+        },
+        features:
+        {
+            type:String,
+            require:true
+        },
+        feedemail:
+        {
+            type:String,
+            require:true
+        },
+        uname:
+        {
+            type:String,
+            require:true
+        },
+        date:
+        {
+            type:Date,
+            require:true
+        }
+    }
+);
+
+const feedbackschema = new mongoose.model("feedbackschema",FeedbackSchema);
+module.exports = feedbackschema;

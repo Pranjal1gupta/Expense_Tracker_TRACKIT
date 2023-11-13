@@ -1,0 +1,188 @@
+/*/////////CONTACT///////*/
+
+
+.contactback{
+  
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    background-image: url(./media/contactback2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: conchange 10s infinite ease-in-out;
+  }
+  
+
+  @keyframes conchange
+  {
+    0%
+    {
+      background-image: url(../Home/media/contactback2.jpg);
+    }
+    50%
+    {
+      background-image: url(../Home/media/contactback3.jpg);
+    }
+    
+    100%
+    {
+      background-image: url(../Home/media/contactbg.jpg);
+    }
+  }
+
+  
+  .contactBg
+  {
+    background: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+  }
+
+  
+  .contactBg:hover
+  {
+    background: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+
+  .contacthead{
+    position: relative;
+    padding-top: 14%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 5px;
+  }
+  
+  
+
+  .contactheading
+  {
+    padding-top: 70px;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  
+  .contactnavtitle
+  {
+    font-size: 32px;
+    font-weight: 700;
+    text-shadow: 1.5px 1px white;
+  }
+  
+  
+  
+  .contactbgimg
+  {
+    background-image: url(./media/contactbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 760px;
+    margin-top: -1%;
+  }
+  
+  
+  .contactnavitem
+  {
+    margin-top: 6%;
+    font-size: 26px;
+    font-weight: 660;
+    text-shadow: 0.5px 0.5px burlywood;
+  }
+  
+  .contactnavitem{
+    margin-top: 3px;
+  }
+  
+  .contactform
+  {
+    padding-top: 50px;
+    padding-left: 6%;
+  }
+  
+  .getintouch
+  {
+    padding-top: 50px;
+    text-align: center;
+  }
+  
+  .phoneimg
+  {
+    
+    height: 300px;
+    width: 300px;
+    margin-top: 170px;
+  }
+  
+  .gethead
+  {
+    font-weight: 700;
+    padding-top: 170px;
+    background: linear-gradient(100deg,#fc00ff,#3ed2f7,#fc00ff);
+    text-transform:uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .faqques
+{
+    margin-top: 100px;
+}
+
+.faq
+{
+  height: 420px;
+}
+
+.faqacc
+{
+    margin: 40px 10px;
+}
+
+.ques{
+  font-size: 30px;
+  color: red;
+  text-shadow: 1px 1px black;
+  font-style: italic;
+}
+
+.ans{
+  font-size: 30px;
+  color: black;
+  font-style: italic;
+}
+
+.quesimg
+{
+  height: 400px;
+  width: 420px;
+}
+
+@media screen and (max-width: 1090px) {
+  .faqacc {
+    width: 700px;
+  }
+  .faq{
+    margin-top: 70px;
+  }
+}
+
+
+@media screen and (max-width: 750px) {
+  .faqacc {
+    width: 700px;
+    margin-left: -10px;
+  }
+  .faq{
+    margin-top: 110px;
+  }
+}

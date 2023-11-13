@@ -1,0 +1,12 @@
+.admlogo h6{
+    font-size: 19px;
+    font-weight: 750;
+    color: white;
+    font-family: 'Gemunu Libre', sans-serif;
+  }
+
+.admsidebar
+{
+  border-right: 2px solid rgb(174, 174, 174);
+  background:linear-gradient(45deg,#4b75f3,#f782d4);
+}

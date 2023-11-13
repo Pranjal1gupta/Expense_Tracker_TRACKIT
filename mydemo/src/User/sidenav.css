@@ -1,0 +1,34 @@
+
+
+i:hover
+{
+    color: rgb(166, 161, 161);
+}
+
+.navitems
+{
+    margin-right: 20px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+i:hover
+{
+    cursor: pointer;
+
+}
+ 
+.snhead
+{
+    font-size: 27px;
+    font-weight:600;
+    
+}
+
+.sidenav
+{
+    background:linear-gradient(55deg,#5371c8,#d96eb9);
+    border-bottom: 3px solid rgb(174, 174, 174);
+}
+

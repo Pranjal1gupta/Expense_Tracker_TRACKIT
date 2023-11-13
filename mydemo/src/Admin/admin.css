@@ -1,0 +1,96 @@
+.exptracker
+{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.admloginback
+{
+    height: 100vh;
+    background:linear-gradient(45deg,rgb(241, 148, 148),rgb(129, 129, 225));
+}
+
+.admheading
+{
+    text-align: center;
+    color: white;
+}
+
+.admloginbtn
+{
+    background-color: #044746;
+    padding: 10px 50px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+}
+
+.forgetpassadm h4
+{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 500;
+    color: white;
+}
+
+.adminplabel
+{
+    margin-left: 30px;
+    font-size: 15px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.adminp
+{
+    width: 40%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.admimglogin img
+{
+  height: 37%;
+  width: 40%;
+  margin-left: 58%;
+  margin-top: -300px;
+}
+
+
+.admimgforgetpwd img
+{
+  height: 35%;
+  width:35%;
+  margin-left: 57%;
+  margin-top: -190px;
+}
+
+.forgetform
+{
+    margin-top: 30px;
+}
+
+.admforgetbtn
+{
+    background-color: #5793ce;
+    padding: 10px 20px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+}
+
+.fgt
+{
+  text-align: center;
+  font-size: 17px;
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+
+.admin-users-profile h4
+{
+    font-weight: 500;
+}

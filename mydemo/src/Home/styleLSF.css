@@ -1,0 +1,426 @@
+.btn-google 
+{
+  background: conic-gradient(from -45deg, #e93f2f 110deg, #2a6dd9 90deg 180deg, #1a9b3c 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px;
+}
+.btn-google:hover
+{
+  background: conic-gradient(from -45deg, #f36255 110deg, #4a87e7 90deg 180deg, #43e56e 180deg 270deg, #f5c63a 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px;}
+.btn-facebook
+{
+  color: rgb(44, 44, 184);
+  font-size: 43px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.inp
+{
+    width: 40%;
+
+}
+
+.inplabel{
+    margin-left: 27px;
+}
+
+.inplabelname
+{
+  margin-left: 31px;
+}
+
+.topheading
+{
+  padding-top: 80px;
+  color:rgba(13, 107, 131, 0.945);
+  isolation: isolate;
+}
+
+@media screen and (max-width: 577px) {
+  .topheading {
+    text-align: center;
+  }
+}
+
+/* SIGNUP */
+
+.w3-panel-signup
+{
+  width: 55%;
+  height: auto;
+  margin-left: 20%;
+}
+
+/* .bgsignup
+{
+  background-image: url(./media/bg1\ \(2\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 760px;
+  margin-top: -9px;
+} */
+
+
+.bgsignup
+{
+  width: auto;
+  display:grid;
+  /* height: 830px; */
+  /* margin-top: -9px; */
+  position: relative;
+  
+  
+}
+.bgsignup::before
+{
+  background-image: url(./media/bg1\ \(2\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  content: '';
+  inset: 0;
+  opacity: 0.4;
+  height: 105%;
+}
+
+.signupcard
+{
+  background-color: white;
+  isolation: isolate;
+  padding-bottom: 10px;
+}
+
+.signupform
+{
+  width: 200%;
+  margin-left: 350px;
+
+}
+
+@media screen and (max-width: 476px) {
+  .topheading {
+    margin-left: 250px;
+  }
+}
+
+/* .sidesign
+{
+  height: 400px;
+  width: 400px;
+  margin-left: 30px;
+  margin-top: 10%;
+} */
+
+.thd
+{
+  margin-left: 640px;
+  margin-top: -40%;
+}
+
+.thd h2
+{
+  text-align: center;
+}
+
+.emailtext {
+  margin-left: 30px;
+}
+
+.signup{
+   text-align: center;
+    font-size: 17px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.imgsignup img
+{
+  height: 75%;
+  width: 50%;
+  margin-left: 50%;
+  margin-top: -350px;
+}
+.showpwd
+{
+    margin-left: 27px;
+}
+
+.signupbutton
+{
+  background-color:#2a6dd9;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 7px;
+}
+
+/* .topheading
+{
+  color:#ffffff;
+ 
+  isolation: isolate;
+}  */
+
+@media screen and (max-width: 1087px) {
+  .signupform {
+    width: 420%;
+  margin-left: 220px;
+  }
+}
+
+@media screen and (max-width: 772px) {
+  .signupform {
+    width: 480%;
+  margin-left: 9px;
+  }
+}
+
+@media screen and (max-width: 810px) and (min-width:577px) {
+  .signupform {
+    width: 550%;
+    margin-left: 5px;
+  }
+  .w3-panel-signup
+  {
+    width: 87%;
+  }
+}
+
+
+@media screen and (max-width: 640px) and (min-width:548px) {
+  .signupform {
+    width: 400%;
+  margin-left: -20px;
+  }
+}
+
+
+@media screen and (max-width: 575px) {
+  .signupform {
+    margin-left: -120px;
+    width: 150%;
+    margin-top: -110px;
+  }
+}
+
+
+/*LOGIN */
+
+.w3-panel-login
+{
+  width: 55%;
+  height: auto;
+  margin-left: 20%;
+}
+
+.logincard
+{
+  background-color: white;
+  isolation: isolate;
+}
+ .height{
+  margin-top: -13px;
+ }
+
+ .logform
+{
+  width: 200%;
+  margin-left: 350px;
+}
+
+.login
+{
+  text-align: center;
+  font-size: 17px;
+  margin-top: -30px;
+  margin-bottom: 20px;
+
+}
+
+.loginbutton
+{
+  background-color:#2a6dd9;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 7px;
+}
+
+.bottomtxt
+{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.imglogin img
+{
+  height: 37%;
+  width: 41%;
+  margin-left: 53%;
+  margin-top: -300px;
+}
+
+@media screen and (max-width: 1087px) {
+  .logform {
+    width: 400%;
+  margin-left: 220px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .logform {
+    width: 480%;
+  margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width:573px) {
+  .logform {
+    width:680px;
+    margin-left: 90px;
+    margin-left: -70px;
+  }
+  .w3-panel-login
+  {
+    width: 100%;
+  }
+}
+
+
+/* @media screen and (max-width: 611px) and (min-width:574px) {
+  .logform {
+    width: 500%;
+  margin-left: 100px;
+  margin-top: -50px;
+  }
+} */
+
+
+@media screen and (max-width: 575px) {
+  .logform {
+    margin-left: -120px;
+    width: 150%;
+    margin-top: -100px;
+  }
+}
+
+
+/* FORGET PASSWORD */
+
+.w3-panel-forgetpass
+{
+  width: 55%;
+  height: auto;
+  margin-left: 20%;
+}
+
+.forgetpasscard
+{
+  background-color: white;
+  margin-top: 8%;
+  isolation: isolate;
+}
+
+.forgetpass
+{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.imgforgetpwd img
+{
+  height: 20%;
+  width:25%;
+  margin-left: 60%;
+  margin-top: -180px;
+}
+/* .bgforgetpass
+{
+  background-image: url(./media/bg1\ \(2\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 760px;
+  margin-top: -9px;
+} */
+
+.bgforgetpass
+{
+  width: auto;
+  display:grid;
+  /* height: 830px; */
+  /* margin-top: -9px; */
+  position: relative;
+  
+}
+.bgforgetpass::before
+{
+background-image: url(./media/bg1\ \(2\).jpg);  background-repeat: no-repeat;
+  position: absolute;
+  background-size: cover;
+  content: '';
+  inset: 0;
+  opacity: 0.4;
+  height: 110%;
+}
+
+
+
+@media screen and (max-width: 1087px) {
+  .forgetform {
+    width: 400%;
+  margin-left: 220px;
+  }
+}
+
+
+@media screen and (max-width: 770px) {
+  .forgetform {
+    width: 480%;
+  margin-left: 100px;
+  }
+}
+
+
+@media screen and (max-width: 800px) and (min-width:573px) {
+  .forgetform {
+    width:680px;
+    margin-left: -120px;
+    margin-top: -100px;
+  }
+  .w3-panel-forgetpass
+  {
+    width: 100%;
+  }
+}
+
+/* @media screen and (max-width: 611px) and (min-width:574px) {
+  .logform {
+    width: 500%;
+  margin-left: 100px;
+  margin-top: -50px;
+  }
+} */
+
+@media screen and (max-width: 575px) {
+  .forgetform {
+    margin-left: -150px;
+    width: 510%;
+  }
+  .forgethead
+  {
+    margin-left: -10px;
+  }
+}

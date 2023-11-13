@@ -1,0 +1,60 @@
+.exptrack
+{
+    height: 200px;
+    padding: 10px;
+    background-image: url('../Home/media/dashboardback2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.admheadtrack
+{
+    font-weight:640;
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+.dashboardicon
+{
+    height: 130px;
+    width: 138px;
+    float: right;
+    margin-top: -40px;
+}
+
+.admpara
+{
+    font-size: 18px;
+    margin-left: 8px;
+    font-weight: 400;
+}
+
+.admexpense
+{
+    height: 200px;
+    padding: 10px;
+    background-image: url('../Home/media/dashboardback1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.admusers
+{
+    height: 225px;
+    padding: 10px;
+    background-image: url('../Home/media/dashboardback3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.admheadexp
+{
+    font-size: 27px;
+    font-weight: 470;
+    margin-bottom: 5px;
+}
+.admhrstylecard
+{
+  border: 1px solid white;
+  margin-top: 0.2px;
+}

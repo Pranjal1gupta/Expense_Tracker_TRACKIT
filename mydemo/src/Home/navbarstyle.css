@@ -1,0 +1,347 @@
+.back
+{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  background-image: url(../Home/media/navimg1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: mainchange 15s infinite ease-in-out;
+}
+
+.imgicon
+{
+  height: 60px;
+  width: 62px;
+}
+
+@keyframes mainchange
+{
+  0%
+  {
+    background-image: url(../Home/media/navimg2.jpg);
+  }
+  20%
+  {
+    background-image: url(../Home/media/navimg3.jpg);
+  }
+  40%
+  {
+    background-image: url(../Home/media/navimg4.jpg);
+  }
+  60%
+  {
+    background-image: url(../Home/media/navimg5.jpg);
+  }
+  80%
+  {
+    background-image: url(../Home/media/navimg6.jpg);
+  }
+  100%
+  {
+    background-image: url(../Home/media/navimg1.jpg);
+  }
+}
+
+
+.mainlogo{
+  margin-top: 2px;
+  height:55px;
+  width: 75px;
+  border-radius: 35px;
+}
+
+.title
+{
+  font-size: 30px;
+  font-weight: 800;
+ color: white;
+ text-shadow: 2.5px 2px black;
+}
+
+.navitem
+{
+  font-size:27px;
+  font-weight: 600;
+  color: white;
+  text-shadow: 1.5px 1.5px black;
+}
+
+.homenav
+{
+  background-color: rgba(255, 255, 255, 0.07);
+  backdrop-filter: saturate(140%) contrast(30%) brightness(120%);
+  -webkit-backdrop-filter: saturate(140%) contrast(30%) brightness(120%);;
+  transition: all 0.5s ease-in-out
+  
+}
+
+/* @supports (-webkit-backdrop-filter: blur(30px) saturate(160%) contrast(45%) brightness(140%)) or
+  (backdrop-filter: blur(30px) saturate(160%) contrast(45%) brightness(140%)) {
+  .navbar-b.navbar-reduce {
+    transition: all 0.5s ease-in-out;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+    -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  }
+} */
+
+.navbarhover:hover
+{
+
+  border: 2.5px solid #fffffff9;
+  border-radius: 35px;
+  padding-bottom: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.ptext {
+  position:relative;  
+  padding-top: 13%;  
+  width: 100%;  
+  text-align: center;  
+  font-size: 55px;  
+  font-weight: 900; 
+  letter-spacing: 5px; 
+}
+
+
+/* .ptextdesc span:hover{
+  color:rgb(158, 74, 242);
+} */
+
+.textBg:hover{
+  background: white;
+  color: black;
+}
+
+.textBg {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.ptextdesc
+{
+  position: relative;
+  margin-top: 7.5%;
+  width: 100%;
+  text-align: center;
+  font-size: 33px;
+  font-weight: 500;
+  letter-spacing: 2px;
+   text-shadow: 2.5px 2px black;
+  color: white;
+}
+
+.ptextdesc span{
+  animation: txt 3s infinite;
+}
+
+@keyframes txt 
+{
+  0%
+  {
+    color: black;
+  }
+  20%
+  {
+    color: white;
+  }
+  40%
+  {
+    color:  black;
+  }
+  60%
+  {
+    color: white;
+  }
+  80%
+  {
+    color:  black;
+  }
+  100%
+  {
+    color: white;
+  }
+}
+
+.ptextdesc button
+{
+  margin-top: 45px;
+  width: 270px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 25px;
+  font-size: 25px;
+  font-weight: bold;
+  border: 2px solid #009688;
+  background: #009688;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+/* .descbutton
+{
+  background-color: #009688;
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+} */
+/* .descbutton:hover
+{
+  width: 100%;
+} */
+.ptextdesc button:hover
+{
+  background: #03685e;
+  border: #03685e;
+}
+
+.maindesc
+{
+  background: linear-gradient(100deg, rgb(86, 86, 86));
+  margin-top: 120px;
+  background-color: rgba(9,163,198,255);
+  padding-bottom: 10px;
+}
+
+.imgicondiv
+{
+  height: 100%;
+  width: 100%;
+  margin-top: -8px;
+  margin-bottom: 0px;
+}
+
+.maindesc-heading
+{
+  text-align: center;
+  padding-top: 60px;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  color: white;
+}
+
+.maindesc-heading-exp
+{
+  background: linear-gradient(100deg,#f73e82,#f35bf6);
+  text-transform:uppercase;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.maindesc-heading-bdg
+{
+  background: linear-gradient(100deg,#e7f21c,#fa8c05);
+  text-transform:uppercase;
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+}
+
+.maindesc-heading-money
+{
+  background: linear-gradient(90deg,#5cef30,#00c85d);
+  text-transform:uppercase;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.maindesc-txt
+{
+  padding-top: 35px;
+  padding-right: 40px;
+  text-align:center;
+  color: white;
+}
+
+.maindesc-txt p{
+  padding: 15px 15px;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.featuredesc
+{
+  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.feat-heading
+{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  color: black;
+}
+
+.feature-heading
+{
+  padding-top: 15px;
+   font-size:30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.feature-content
+{
+  font-size: 17px;
+  font-weight:400;
+  text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.feature-div
+{
+  transition: 0.5s;
+  margin-bottom: 30px;
+}
+
+.feature-div:hover
+{
+  transform: scale(1.05);
+  z-index: 1.5;
+}
+
+/* ///////////////////////////////////////////////////// */
+
+.images
+{
+  height: 230px;
+  width: 330px;
+  border-radius: 15px 70px 15px;
+}
+
+.get-started
+{
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color:rgb(238, 238, 238);
+}
+
+
+
+
+
+
+
+
+

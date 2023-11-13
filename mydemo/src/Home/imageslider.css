@@ -1,0 +1,59 @@
+/* /////////////////////IMAGE SLIDER////////////////////////////////// */
+
+.imgslider-back
+{
+  background: linear-gradient(45deg,rgb(85, 74, 231),rgb(1, 170, 255),rgb(85, 74, 231));
+  height: 100%;
+  width: 100%;
+  border-radius: 15% 15% 15% 15% / 50% 50% 50% 50% ;
+  padding: 60px;
+}
+
+.imgslider-head h2
+{
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+
+
+.imgslider
+{
+  height: 800px;
+  width: 430px;
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+
+.imgsliderimg 
+{
+  height: 800px;
+  width: 430px;
+  padding: 7px;
+  border-radius: 40px;
+}
+
+.featureblock
+{
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+
+}
+
+.featureblock h3
+{
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform:capitalize;
+}
+
+.featureblock p{
+  font-size: 18px;
+}

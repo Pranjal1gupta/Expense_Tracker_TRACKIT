@@ -1,0 +1,156 @@
+/* .aboutback
+{
+    width: auto;
+    height: 80%;
+    display:grid;
+    position: relative;
+    overflow: hidden;
+}
+
+.aboutback::before
+{
+  background-image: url(./media/aboutus.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  content: '';
+  inset: 0;
+  opacity: 0.8;
+} */
+
+.aboutback
+{
+  margin-top: -242px;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  background-image: url(./media/aboutus.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: change 10s infinite ease-in-out;
+}
+
+@keyframes change
+{
+  0%
+  {
+    background-image: url(./media/aboutus2.jpg);
+  }
+  50%
+  {
+    background-image: url(./media/aboutus.jpg);
+  }
+  100%
+  {
+    background-image: url(./media/aboutus3.jpg);
+  }
+
+}
+
+.abouthead {
+    position: relative;
+    margin-top: 14%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    
+  }
+  
+.missiongif
+{
+  margin-top: 50px;
+  height: 320px;
+
+}
+  
+  /* .ptextdesc span:hover{
+    color:rgb(158, 74, 242);
+  } */
+  
+  .aboutBg:hover{
+    background: white;
+    color: black;
+    
+  }
+  
+  .aboutBg {
+    background: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+  }
+
+  .missionhead
+  {
+    font-size: 55px;
+    font-weight: 600;
+    text-shadow: 1px 1.5px black;
+    letter-spacing: 1.5px;
+    margin-bottom: 50px;
+  }
+
+  .mission{
+    margin-top: 30px;
+    font-size: 22px;
+    padding-left: 50px;
+  }
+
+  .missionpara
+  {
+    padding-top: 20px;
+  }
+
+.abtgif
+{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 400px;
+  width: 100%;
+}
+
+.aboutdev2
+{
+  height: 180px;
+  width: 260px;
+  border:2px solid #003140;
+  border-radius: 15px 60px 15px;
+}
+
+.aboutdev1
+{
+  height: 190px;
+  width: 260px;
+  border:2px solid #04706a;
+  border-radius: 15px 60px 15px;
+}
+
+.aboutdevtrans
+{
+  transition: 0.5s;
+}
+
+
+.aboutdevtrans:hover
+{
+  transform: scale(1.05);
+  z-index: 1.5;
+}
+
+.dn
+{
+  text-align: center;
+  padding: 20px;
+  /* font-size: 35px; */
+  font-weight: 500;
+}
+.dnc
+{
+  text-align: center;
+  font-weight: 400;  
+}
+
+
